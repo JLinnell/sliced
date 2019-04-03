@@ -1,0 +1,2 @@
+As a user, I will be able to input my location to see a list of bakeries that have whole cakes available at that current moment
+As a user, I will be able to see a list of bakeries within my geographical location 

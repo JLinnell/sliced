@@ -1,0 +1,52 @@
+input {
+    height: 50px;
+    width: 220px;
+    display: block;
+/* testing lines 6&7 */
+    border: 1px solid #0f5b97;
+    border-radius: 3%;
+}
+
+input::placeholder {
+    padding-left: 10px;
+    
+}
+
+.search {
+    margin-bottom: 8px;
+}
+
+.search:focus {
+    padding-left: 5px;
+}
+
+.search-btn {
+    height: 50px;
+    width: 150px;
+    display: block;
+    /* margin: 20px auto; */
+    margin: 20px 35px;
+/* test pt2 */
+    border: 1px solid #0f5b97;
+    border-radius: 3%;
+    color: #0f5b97;
+    background-color: white;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #0f5b97;
+    color: white;
+}
+
+.search-btn:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(8px);
+  }
+
+.order-input {
+text-align: center;
+padding-left: 16rem;
+
+}
